@@ -1,0 +1,18 @@
+#checkbox {
+    margin-left: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.description{
+    font-size: small;
+    overflow: auto;
+    display: inline;
+}
+
+.completed {
+    color: rgba(128, 128, 128, 0.562);
+    text-decoration: dashed;
+    filter: blur(.45px);
+}
